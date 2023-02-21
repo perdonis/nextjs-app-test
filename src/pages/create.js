@@ -1,5 +1,5 @@
 import Link from 'next/link';
-export default function Home() {
+export default function Create() {
     return (
         <>
             <h1>
@@ -10,8 +10,8 @@ export default function Home() {
                 <li><Link href="/read/2">css</Link></li>
             </ol>
             <article>
-                <h2>Create</h2>
-                Hello, Create
+                <h2>Welcome</h2>
+                Hello, WEB
             </article>
             <ul>
                 <li><Link href="/create">Create</Link></li>
