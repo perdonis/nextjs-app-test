@@ -1,24 +1,11 @@
-import Link from 'next/link';
+// import Layout from '@/components/layout'
+
+
 export default function Home() {
     return (
         <>
-            <h1>
-                <Link href="/">WEB</Link>
-            </h1>
-            <ol>
-                <li><Link href="/read/1">html</Link></li>
-                <li><Link href="/read/2">css</Link></li>
-            </ol>
-            <article>
-                <h2>Create</h2>
-                Hello, Create
-            </article>
-            <ul>
-                <li><Link href="/create">Create</Link></li>
-                <li><Link href="/update">Update</Link></li>
-                <li><Link href="/delete">Delete</Link></li>
-                <li>123123 수정 테스트</li>
-            </ul>
+            <h2>Welcome</h2>
+            Hello, WEB
         </>
     )
 }
